@@ -26,14 +26,14 @@ Follow these steps to get started:
 
 6. Use a REST Client to use the system through [http://localhost:8080](http://localhost:8080/)
 
-6.1. To shorten, do a POST request to [http://localhost:8080/encurte/url](http://localhost:8080/encurte/url) and with a json:
+7. To shorten, do a POST request to [http://localhost:8080/encurte/url](http://localhost:8080/encurte/url) and with a json:
 
 	{
 		"longUrl": "http://www.chaordic.com”
 	}
 
-6.2. To stretch, do a GET request to [http://localhost:8080/url?shortUrl=http://chrdc.co/a](http://localhost:8080/url?shortUrl=http://chrdc.co/a)
+8. To stretch, do a GET request to [http://localhost:8080/url?shortUrl=http://chrdc.co/a](http://localhost:8080/url?shortUrl=http://chrdc.co/a)
 
-7. Stop the application:
+9. Stop the application:
 
         > re-stop
